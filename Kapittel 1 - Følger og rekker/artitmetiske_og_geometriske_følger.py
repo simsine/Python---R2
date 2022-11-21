@@ -7,4 +7,4 @@ for i in range(1,15):
     følge.append(ar_ledd(3,3,i))
 print(følge)
 
-def ar_sum(l_1:int, )
+# def ar_sum(l_1:int, )

@@ -1,5 +1,5 @@
 import math
-from radianer_og_grader import gradertilradianer, radianertilgrader
+from _radianer_og_grader import gradertilradianer, radianertilgrader
 
 # 1
 grader = 90

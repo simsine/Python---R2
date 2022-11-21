@@ -1,6 +1,7 @@
 def trappessum(a:int, b:int, N:int, f):
     """
     Funksjon som returnerer et estimat av det totale arealet under en graf ved trappessum metoden
+    sum(N, i=1, ...)
     """
     areal = 0 # Deklarere areal
     delta_x = (b - a) / N # Finne delta x

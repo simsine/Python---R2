@@ -46,8 +46,16 @@ match SELECT:
         tid = data[:,0]
         hastighet = data[:,1]
         deltax = tid[1] - tid[0]
+
+        from simsine import sumasjon
         
-         
+        print(sumasjon(0, len(hastighet), lambda x: abs(x) * deltax))
+
+        # SUM = 0
+        # for i in hastighet:
+        #     SUM += abs(i) * deltax
+        # print(SUM)
+        
             
     case _:
         print("Ugyldig seleksjon, prøv igjen\n")
